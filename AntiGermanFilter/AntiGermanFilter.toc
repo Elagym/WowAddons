@@ -1,0 +1,6 @@
+## Interface: 11508
+## Title: Anti-German Filter
+## Notes: Blocks chat messages containing specific German words.
+## Author: Elagym
+## Version: 1.0.0
+AntiGermanFilter.lua

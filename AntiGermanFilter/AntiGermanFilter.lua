@@ -4,9 +4,9 @@ GF_Config = GF_Config or { printEnabled = true }
 local germanKeywords = {
     "aber", "alle", "als", "auf", "dann", "das", "der", 
     "ein", "für", "geht", "gibt", "gilde", "gilden", "gruppe", "günstig", 
-    "haben", "heute", "ich", "ist", "jemand", "kaufe", "keine", "kleine", "lern", "mit", "nein", 
-    "netten", "nicht", "preis", "sicheren", "suche", "suchen", "über", "und", 
-    "unter", "von", "vorhanden", "waffe", "weiter", "würg"
+    "haben", "heute", "ich", "ist", "jemand", "kann", "kaufe", "keine", "kleine", "lern", "mit", "nein", 
+    "netten", "nicht", "nur", "preis", "rekrutiert", "sicheren", "suche", "suchen", "über", "und", 
+    "unter", "von", "vorhanden", "waffe", "weiter", "würg", "ß"
 }
 
 local lastProcessedLineID = 0
@@ -62,4 +62,5 @@ SlashCmdList["GERMANFILTER"] = function(msg)
     else
         print("|cFFFF0000[Filter]|r Use |cFFFFD100/gf print|r to toggle notifications.")
     end
+
 end
